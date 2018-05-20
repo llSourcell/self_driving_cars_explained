@@ -1,8 +1,10 @@
-# Self-Driving Car Engineer Nanodegree
-# Deep Learning
-## Behavioral Cloning: Navigating a Car in a Simulator
+# Self-Driving Cars Explained
+
+
 
 ### Overview
+
+This is the code for [this](https://youtu.be/yt015gM-ync) video on Youtube by Siraj Raval. You can find the simulator [here](https://github.com/udacity/self-driving-car-sim). 
 
 The objective of this project is to clone human driving behavior using a Deep Neural Network. In order to achieve this, we are going to use a simple Car Simulator. During the training phase, we navigate our car inside the simulator using the keyboard. While we navigating the car the simulator records training images and respective steering angles. Then we use those recorded data to train our neural network. Trained model was tested on two tracks, namely training track and validation track. Following two animations show the performance of our final model in both training and validation tracks.
 
@@ -120,3 +122,8 @@ When it comes to extensions and future directions, I would like to highlight fol
 * Experiment with other possible data augmentation techniques.
 * When we are driving a car, our actions such as changing steering angles and applying brakes are not just based on instantaneous driving decisions. In fact, curent driving decision is based on what was traffic/road condition in fast few seconds. Hence, it would be really interesting to seee how Recurrent Neural Network (**RNN**) model such as **LSTM** and **GRU** perform this problem.
 * Finally, training a (deep) reinforcement agent would also be an interesting additional project.
+
+
+## Credits
+
+Credits for this code go to [upul](https://github.com/upul/Behavioral-Cloning). 
